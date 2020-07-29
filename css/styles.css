@@ -1,4 +1,4 @@
-body{
+body {
   color: #40514E;
   margin: 0;
   text-align: center;
@@ -15,6 +15,10 @@ h1 {
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   color: #66BFBF;
+}
+
+p {
+  line-height: 2;
 }
 
 .programmer {
@@ -61,22 +65,22 @@ a {
 
 .Anas {
   width: 10%;
-  margin: 30px auto 25px auto
+  margin: 50px auto 25px auto
 }
-.profile p{
+
+.profile p {
   color: #40514E;
   width: 30%;
   margin: auto;
 }
 
-hr{
+hr {
   border-style: none;
   border-top: dotted;
   border-color: #EAF6F6;
-  border-width: 5px;
+  border-width: 6px;
   width: 4%;
-  margin: 80px auto 80px auto;
-
+  margin: 100px auto 100px auto;
 }
 
 .skill-row {
@@ -99,48 +103,63 @@ hr{
   margin-left: 30px;
 }
 
-.contact-me{
+.contact-me {
   line-height: 2;
   width: 40%;
-  margin: auto;
-  margin-bottom: 50px;
+  margin: 40px auto 60px;
 }
 
-.BUTTON_HOL {
-   background: #66BFBF;
-   background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
-   background-image: -webkit-gradient(top, #66BFBF, #11999E);
-   background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
-   background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
-   background-image: -o-linear-gradient(top, #66BFBF, #11999E);
-   background-image: linear-gradient(to bottom, #66BFBF, #11999E);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   color: #FFFFFF;
-   font-family: Verdana;
-   font-size: 40px;
-   font-weight: 100;
-   padding: 40px;
-   -webkit-box-shadow: 1px 1px 2px 0 #000000;
-   -moz-box-shadow: 1px 1px 2px 0 #000000;
-   box-shadow: 1px 1px 2px 0 #000000;
-   text-shadow: 1px 1px 90px #000000;
-   border: solid #337FED 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 1px 1px 5px 0px #000000;
+  -webkit-box-shadow: 1px 1px 5px 0px #000000;
+  -moz-box-shadow: 1px 1px 5px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.bottom-container{
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.bottom-container {
   background-color: #66BFBF;
-  padding: 40px;
-  padding-bottom: 25px;
+  padding: 50px;
+  padding-bottom: 20px;
   color: #EAF6F6;
 }
 
-.footer-link{
+.footer-link {
   margin: 0 20px 20px 20px;
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
@@ -148,4 +167,8 @@ hr{
   font-weight: bold;
   text-decoration: none;
   line-height: 2;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
 }
