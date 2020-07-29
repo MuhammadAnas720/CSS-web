@@ -126,9 +126,9 @@ hr {
   padding: 0;
   padding-left: 10px;
   padding-right: 10px;
-  box-shadow: 1px 1px 5px 0px #000000;
-  -webkit-box-shadow: 1px 1px 5px 0px #000000;
-  -moz-box-shadow: 1px 1px 5px 0px #000000;
+  box-shadow: 1px 1px 5px 0 #000000;
+  -webkit-box-shadow: 1px 1px 5px 0 #000000;
+  -moz-box-shadow: 1px 1px 5px 0 #000000;
   text-shadow: 1px 1px 20px #000000;
   border: solid #337FED 1px;
   text-decoration: none;
